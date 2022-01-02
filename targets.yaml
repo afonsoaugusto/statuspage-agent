@@ -1,0 +1,10 @@
+configuration:
+  apiKey: "<>"
+  pageId: "<>"
+  apiBase: "https://api.statuspage.io/v1"
+targets:
+- name: "Localhost"
+  url: "http://localhost:8080/health-check"
+  status_code: 200
+  insecure_req: false
+  component_id: "<>"
